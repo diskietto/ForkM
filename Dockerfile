@@ -7,7 +7,7 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y git
 
 # Clone the repository
-RUN git clone https://github.com/diskietto/ForkM.git .
+RUN git clone https://github.com/diskietto/ForkM .
 
 # Copy the local config.json file to the container
 
